@@ -879,16 +879,16 @@
                             <h4 class="widget-title">Our Company</h4>
                             <ul>
                                 <li>
-                                    <a href="about-us.html">Home</a>
+                                    <a href="{{ route('home') }}">Home</a>
                                 </li>
                                 <li>
-                                    <a href="faq.html">About Us</a>
+                                    <a href="{{ route('about') }}">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="about-us.html">Service</a>
+                                    <a href="{{ route('services') }}">Service</a>
                                 </li>
                                 <li>
-                                    <a href="pricing.html">Contact</a>
+                                    <a href="{{ route('contact') }}">Contact</a>
                                 </li>
                                
                             </ul>

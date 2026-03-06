@@ -440,7 +440,7 @@
                     </div>
                     <div class="col-lg-2 col-md-6 footer-item">
                         <div class="f-item link">
-                            <h4 class="widget-title">Our Company</h4>
+                            
                             <ul>
                                 <li>
                                     <a href="{{ route('home') }}">Home</a>

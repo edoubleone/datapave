@@ -2,8 +2,8 @@
 
 namespace App\Mail;
 
+use App\Models\Contact;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
@@ -13,27 +13,24 @@ class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-     public $contactData;
+    public function __construct(public Contact $contact) {}
 
-    public function __construct($contactData)
+    public function envelope(): Envelope
     {
-        $this->contactData = $contactData;
+        return new Envelope(
+            replyTo: [$this->contact->email],
+            subject: 'New Contact Form Submission',
+        );
     }
 
-    public function build()
+    public function content(): Content
     {
-        return $this->from($this->contactData['email'])
-                    ->to('info@libentia.org')
-                    ->subject('New Contact Form Submission')
-                    ->view('emails.contact')
-                    ->with('contactData', $this->contactData);
+        return new Content(
+            view: 'emails.contact',
+            with: ['contact' => $this->contact],
+        );
     }
 
-    /**
-     * Get the attachments for the message.
-     *
-     * @return array<int, \Illuminate\Mail\Mailables\Attachment>
-     */
     public function attachments(): array
     {
         return [];

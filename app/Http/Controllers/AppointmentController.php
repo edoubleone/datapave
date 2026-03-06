@@ -63,7 +63,7 @@ class AppointmentController extends Controller
             Log::info('Appointment created successfully.', ['appointment' => $appointment]);
 
             // Send a confirmation email to the admin
-            // Mail::to('info@breemhealthcare.com')->send(new AppointmentMail($appointment));
+            Mail::to('info@thedatapave.com')->send(new AppointmentMail($appointment));
             Log::info('Notification email sent to admin.');
 
             // Redirect with success message

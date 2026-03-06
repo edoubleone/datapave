@@ -17,7 +17,7 @@
                             <div class="widget footer-widget">
                                 <div class="th-widget-about">
                                     <div class="about-logo">
-                                        <a class="icon-masking" href="index.html">
+                                        <a class="icon-masking" href="{{ route('home') }}">
                                             <img src="{{ asset('assets/img/BreemLogo2.svg') }}" alt="Breem Healthcare" />
                                         </a>
                                     </div>
