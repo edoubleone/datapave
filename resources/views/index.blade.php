@@ -70,10 +70,7 @@
                             <i class="fas fa-map-marker-alt"></i> 4500 Forbes Blvd Lanham 20706
                         </li>
                         <li>
-                            <a href="tel:2404596084"><i class="fas fa-phone-alt"></i> 2404596084</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-fax"></i> 2403666783
+                            <a href="tel:2403742652"><i class="fas fa-phone-alt"></i> 2403742652</a>
                         </li>
                     </ul>
                 </div>
@@ -84,7 +81,7 @@
                         </div>
                         <div class="info">
                             <p>Have any Questions?</p>
-                            <h5><a href="mailto:info@crysta.com">info@datapavellc.com</a></h5>
+                            <h5><a href="mailto:info@thedatapave.com">info@thedatapave.com</a></h5>
                         </div>
                     </div>
                 </div>
@@ -186,19 +183,13 @@
                                     <li>
                                         <div class="content">
                                             <p>Email</p> 
-                                            <strong>info@datapavellc.com</strong>
+                                            <strong>info@thedatapave.com</strong>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="content">
                                             <p>Phone</p> 
-                                            <strong>2404596084</strong>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="content">
-                                            <p>Fax</p> 
-                                            <strong>2403666783</strong>
+                                            <strong>2403742652</strong>
                                         </div>
                                     </li>
                                 </ul>
@@ -853,17 +844,12 @@
                                     <li> 
                                         <div class="working-day">Phone:</div>
                                         <div class="marker"></div>
-                                        <div class="working-hour">2404596084</div>
-                                    </li>
-                                    <li>
-                                        <div class="working-day">Fax:</div>
-                                        <div class="marker"></div>
-                                        <div class="working-hour">2403666783</div>
+                                        <div class="working-hour">2403742652</div>
                                     </li>
                                     <li>
                                         <div class="working-day">Email:</div>
                                         <div class="marker"></div>
-                                        <div class="working-hour">info@datapavellc.com</div>
+                                        <div class="working-hour">info@thedatapave.com</div>
                                     </li>
                                     <li>
                                         <div class="working-day">Address:</div>

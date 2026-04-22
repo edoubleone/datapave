@@ -52,10 +52,7 @@
                             <i class="fas fa-map-marker-alt"></i> 4500 Forbes Blvd Lanham 20706
                         </li>
                         <li>
-                            <a href="tel:2404596084"><i class="fas fa-phone-alt"></i> 2404596084</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-fax"></i> 2403666783
+                            <a href="tel:2403742652"><i class="fas fa-phone-alt"></i> 2403742652</a>
                         </li>
                     </ul>
                 </div>
@@ -284,16 +281,7 @@
             </div>
             <div class="content">
                 <h5 class="title">Hotline</h5>
-                <a href="tel:2404596084">2404596084</a>
-            </div>
-        </li>
-        <li class="wow fadeInUp" data-wow-delay="300ms">
-            <div class="icon">
-                <i class="fas fa-fax"></i>
-            </div>
-            <div class="content">
-                <h5 class="title">Fax</h5>
-                <a href="#">2403666783</a>
+                <a href="tel:2403742652">2403742652</a>
             </div>
         </li>
         <li class="wow fadeInUp" data-wow-delay="500ms">
@@ -313,7 +301,7 @@
             </div>
             <div class="info">
                 <h5 class="title">Official Email</h5>
-                <a href="mailto:info@datapavellc.com.com">info@datapavellc.com</a>
+                <a href="mailto:info@thedatapave.com">info@thedatapave.com</a>
             </div>
         </li>
     </ul>
@@ -422,17 +410,12 @@
                                     <li> 
                                         <div class="working-day">Phone:</div>
                                         <div class="marker"></div>
-                                        <div class="working-hour">2404596084</div>
-                                    </li>
-                                    <li>
-                                        <div class="working-day">Fax:</div>
-                                        <div class="marker"></div>
-                                        <div class="working-hour">2403666783</div>
+                                        <div class="working-hour">2403742652</div>
                                     </li>
                                     <li>
                                         <div class="working-day">Email:</div>
                                         <div class="marker"></div>
-                                        <div class="working-hour">info@datapavellc.com</div>
+                                        <div class="working-hour">info@thedatapave.com</div>
                                     </li>
                                     <li>
                                         <div class="working-day">Address:</div>
